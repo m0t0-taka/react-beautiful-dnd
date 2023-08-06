@@ -1,4 +1,4 @@
-import { DragDropContext, Draggable, Droppable } from "react-beautiful-dnd";
+import { DragDropContext, Draggable, Droppable } from "@hello-pangea/dnd";
 import "./App.css";
 
 const items = [
@@ -35,7 +35,7 @@ const getListStyle = (isDraggingOver) => ({
 const getItemStyle = (isDragging, draggableStyle) => ({
   userSelect: "none", // copyができないようにする
   padding: grid * 2,
-  margin: `0 0 ${grid} 0`,
+  margin: `0 0 ${grid}px 0`,
   background: isDragging ? "lightgreen" : "grey",
 
   ...draggableStyle,

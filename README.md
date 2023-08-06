@@ -4,15 +4,13 @@ React18 で [react-beautiful-dnd](https://github.com/atlassian/react-beautiful-d
 
 ## 結論
 
+react-beautiful-dnd ではなく、@hello-pangea/dnd を使えばできる。
+
+react-beautiful-dnd は使わない。@hello-pangea/dnd は、react-beautiful-dnd を基に React18 に対応されたもの。
+
 ## 根拠
 
-## react-beautiful-dnd の使い方
-
-```
-npm install react-beautiful-dnd
-```
-
-以下を追加で install すれば使えるようになる。
+以下を install すれば使えるようになる。
 
 https://www.npmjs.com/package/@hello-pangea/dnd
 
